@@ -3,7 +3,7 @@ import random
 import time
 from ctypes import wintypes
 
-# --- HIDE TERMINAL SAFELY ---
+# --- HIDE TERMINAL  ---
 user32 = ctypes.WinDLL("user32", use_last_error=True)
 kernel32 = ctypes.WinDLL("kernel32", use_last_error=True)
 console = kernel32.GetConsoleWindow()
